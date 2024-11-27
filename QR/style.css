@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background-color:#D6E1F0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Varela Round", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+.container{
+    width: 360px;
+    height: 520px;
+    background-color: white;
+
+    border-radius: 20px;
+}
+
+
+.qrelement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.qrimg{
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+
+h3,p{
+    text-align: center;
+    margin: 0 40px;
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 20px;
+    color: rgb(74, 58, 58);
+}
+
+p{
+    font-size: 15px;
+    color: silver;
+}
